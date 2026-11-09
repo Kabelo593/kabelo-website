@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Cool Website</title>
+<style>
+body {
+  background-image: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1200');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-family: Arial;
+}
+h1 { color: white; text-shadow: 2px 2px 4px black; }
+#chatbox {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  padding: 10px;
+  text-align: left;
+  overflow-y: scroll;
+  border: 2px solid blue;
+}
+button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+input { padding: 10px; width: 180px; }
+</style>
+</head>
+<body>
+
+<h1>Welcome to Kabelo's Website</h1>
+<p style="color:white;">Chat with KabeloBot below!</p>
+
+<div id="chatbox">
+  <p><b>KabeloBot:</b> Hi! I'm KabeloBot. Ask me something!</p>
+</div>
+<br>
+<input type="text" id="userInput" placeholder="Type here...">
+<button id="sendBtn">Send</button>
+
+<script>
+function sendMessage() {
+  var input = document.getElementById("userInput");
+  var chatbox = document.getElementById("chatbox");
+  var text = input.value.trim();
+  if (text === "") return;
+
+  chatbox.innerHTML += "<p><b>You:</b> " + text + "</p>";
+
+  var reply = "I don't understand, try asking about hello, name, or how are you?";
+  var lower = text.toLowerCase();
+  if (lower.includes("hi") || lower.includes("hello")) reply = "Hello! Nice to meet you!";
+  else if (lower.includes("name")) reply = "My name is KabeloBot!";
+  else if (lower.includes("how are you")) reply = "I'm great! How are you?";
+  else if (lower.includes("bye")) reply = "Goodbye! Come back soon!";
+
+  chatbox.innerHTML += "<p><b>KabeloBot:</b> " + reply + "</p>";
+  input.value = "";
+  chatbox.scrollTop = chatbox.scrollHeight;
+}
+
+document.getElementById("sendBtn").onclick = sendMessage;
+document.getElementById("userInput").addEventListener("keydown", function(e) {
+  if (e.key === "Enter") sendMessage();
+});
+</script>
+
+</body>
+</html>
