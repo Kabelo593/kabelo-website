@@ -6,7 +6,7 @@ i build responsive websites and and web app wit HTML, CSS, JavaScript,React,Vue,
 
 ### Skills
 - HTML,CSS,JavaScript,React,Vue
-- Node.js, PHP, Laravel
+- Node.js,PHP,Laravel
 - MySQL,PostgreSQL,Python
 - APIs,Code Reviews,SEO & Accessibility
 
@@ -18,10 +18,10 @@ i build responsive websites and and web app wit HTML, CSS, JavaScript,React,Vue,
  - 2026 - Production AI Agent Deployment - Edureka
  - 2026 - Build a RAG Pipeline from Scratch - Edureka
  - 2025 - Full Stack Development - FNB App Academy
- -  2025  - Cyber Security -Alison
- -  20214 - CompTIA N+ - PC Training & Business College
- - 2013 - CompTIA A+ _ Training & Business college
- -  2010 - Matric - Mankhole Secondary School
+ - 2025  - Cyber Security -Alison
+ - 20214 - CompTIA N+ - PC Training & Business College
+ - 2013 - CompTIA A+ - PC Training & Business college
+ - 2010 - Matric - Mankhole Secondary School
 
  ### Contact
  - kabelomanyama57@gmail.com
