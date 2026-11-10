@@ -27,4 +27,4 @@ i build responsive websites and and web app wit HTML, CSS, JavaScript,React,Vue,
  - kabelomanyama57@gmail.com
  -  0797809780
  -  github.com/Kabelo593
- -  Johannesburg,CityDeep - Available Immediately
+ -  Johannesburg,City Deep - Available Immediately
